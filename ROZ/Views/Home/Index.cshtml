@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Rejestr Osób Zaginionych";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Rejestr Osób Zaginionych</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis leo erat. Fusce elementum ut metus dignissim sodales. Cras varius lobortis sodales. Aenean ullamcorper et tortor non egestas. Fusce ac accumsan tellus, non consequat arcu. Aliquam a libero quis quam maximus convallis dignissim quis lacus. Pellentesque eu justo augue. </p>
+        <p><input type="button" class="btn btn-default registerBtn" value="Lista zaginionych osób" onclick="@("window.location.href='" + @Url.Action("Add", "Users") + "'");" /></p>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
